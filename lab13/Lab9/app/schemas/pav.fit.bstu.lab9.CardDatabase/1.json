@@ -1,0 +1,70 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "303598f9566a2731903e351a14b80276",
+    "entities": [
+      {
+        "tableName": "cards",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`Id` TEXT NOT NULL, `fullName` TEXT, `photo` TEXT, `workPlace` TEXT, `email` TEXT, `mobile` TEXT, `link` TEXT, PRIMARY KEY(`Id`))",
+        "fields": [
+          {
+            "fieldPath": "Id",
+            "columnName": "Id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "fullName",
+            "columnName": "fullName",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "photo",
+            "columnName": "photo",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "workPlace",
+            "columnName": "workPlace",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "email",
+            "columnName": "email",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "mobile",
+            "columnName": "mobile",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "link",
+            "columnName": "link",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "Id"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '303598f9566a2731903e351a14b80276')"
+    ]
+  }
+}

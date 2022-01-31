@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Study/ProgMobSys/lab5/app/src/main/res/layout/activity_add_new.xml" value="0.2" />
+        <entry key="..\:/Study/ProgMobSys/lab5/app/src/main/res/layout/activity_edit.xml" value="0.245018115942029" />
+        <entry key="..\:/Study/ProgMobSys/lab5/app/src/main/res/layout/activity_item_info.xml" value="0.24728260869565216" />
+        <entry key="..\:/Study/ProgMobSys/lab5/app/src/main/res/layout/activity_main.xml" value="0.23550724637681159" />
+        <entry key="..\:/Study/ProgMobSys/lab5/app/src/main/res/layout/custom_list_view.xml" value="0.23596014492753623" />
+        <entry key="..\:/Study/ProgMobSys/lab5/app/src/main/res/menu/main_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Study/ProgMobSys/lab6/app/src/main/res/layout-land/activity_main.xml" value="0.152" />
+        <entry key="..\:/Study/ProgMobSys/lab6/app/src/main/res/layout-land/fragment_detail.xml" value="0.1" />
+        <entry key="..\:/Study/ProgMobSys/lab6/app/src/main/res/layout-land/fragment_item_info.xml" value="0.13020833333333334" />
+        <entry key="..\:/Study/ProgMobSys/lab6/app/src/main/res/layout-land/fragment_item_list.xml" value="0.11200000000000002" />
+        <entry key="..\:/Study/ProgMobSys/lab6/app/src/main/res/layout-land/fragment_list.xml" value="0.1" />
+        <entry key="..\:/Study/ProgMobSys/lab6/app/src/main/res/layout/activity_edit.xml" value="0.21739130434782608" />
+        <entry key="..\:/Study/ProgMobSys/lab6/app/src/main/res/layout/activity_item_info.xml" value="0.1265625" />
+        <entry key="..\:/Study/ProgMobSys/lab6/app/src/main/res/layout/activity_main.xml" value="0.21739130434782608" />
+        <entry key="..\:/Study/ProgMobSys/lab6/app/src/main/res/layout/custom_list_view.xml" value="0.13020833333333334" />
+        <entry key="..\:/Study/ProgMobSys/lab6/app/src/main/res/layout/fragment_detail.xml" value="0.264" />
+        <entry key="..\:/Study/ProgMobSys/lab6/app/src/main/res/menu/main_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

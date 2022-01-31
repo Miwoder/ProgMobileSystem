@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ThirdActivity">
+
+    <Button
+        android:id="@+id/nextButtonFromAddressInfo3"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="32dp"
+        android:onClick="backFromThird"
+        android:text="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/nextButtonFromAddressInfo4"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="32dp"
+        android:onClick="nextFromThird"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="56dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="@string/additional_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="160dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="130dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/socialTextInput"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/social_network" />
+    </com.google.android.material.textfield.TextInputLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageLV"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="13dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/nameLV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="16dp"
+        android:width="150dp"
+        android:height="25dp"
+        android:text="TextView"
+        android:textSize="18dp"
+        app:layout_constraintStart_toEndOf="@+id/imageLV"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/descriptionLV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="9dp"
+        android:width="200dp"
+        android:height="50dp"
+        android:text="TextView"
+        android:textSize="18dp"
+        app:layout_constraintStart_toEndOf="@+id/imageLV"
+        app:layout_constraintTop_toBottomOf="@+id/nameLV" />
+</androidx.constraintlayout.widget.ConstraintLayout>

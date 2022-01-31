@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/create"
+        android:orderInCategory="1"
+        android:title="Создать" />
+    <item
+        android:id="@+id/sortByName"
+        android:orderInCategory="2"
+        android:title="Сортировать по имени" />
+    <item
+        android:id="@+id/sortById"
+        android:orderInCategory="3"
+        android:title="Сортировать по ID" />
+</menu>
